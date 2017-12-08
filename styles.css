@@ -1,0 +1,417 @@
+/*Page*/
+* {
+    background-color: #BEB8B2;
+       
+}
+
+body {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.trivia {
+    max-width: 50%;
+    max-height: 50%;
+    background: rgba(62, 54, 47, .3);
+    padding: 1%;
+    font-size: 1em;
+    color: #65594D;
+    border: 8px double #3E362F;
+    border-radius: 15px;
+    float: right;
+    
+}
+
+.trivia2 {
+    max-width: 50%;
+    max-height: 70%;
+    background: rgba(62, 54, 47, .3);
+    padding: 1%;
+    font-size: 1em;
+    color: #65594D;
+    border: 8px double #3E362F;
+    border-radius: 15px; 
+    float: right;
+    
+}
+
+header {
+    height: 25%;
+    clear: both;
+}
+
+h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 3em;
+    padding: 5px;
+    margin: 5px;
+    
+    
+}
+
+h2 {
+    padding: 5px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 2.7em; 
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 2.2em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding: 5px;
+}
+
+h4 {
+    font-size: 2.2em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+  
+
+}
+
+p {
+    font-family: 'Cuprum', sans-serif;
+    letter-spacing: .05em;
+    padding: 0 20px 0 20px;
+    
+    
+}
+.float-area-right {
+    max-width: 100%;
+    background-color: #BEB8B2;
+    color: #65594D;
+    font-size: 1.25em;
+
+}
+
+.content1 {
+    color: #65594D;
+    font-size: 1.25em;
+    max-width: 100%;
+
+}
+
+
+.innercontent {
+    padding: 10px 5px 5px 10px;
+    
+
+    
+}
+
+
+.inner left {
+    padding: 10px;
+ 
+}
+
+.inner-links {
+    max-width: 100%;
+
+    
+}
+
+/*NAVIGATION*/
+
+.nav {
+    padding: 1% 1% 9% 1%;
+    max-width: 80%;
+    border: 3.5px double #3E362F;
+    border-radius: 25px;
+    background: rgba(62, 54, 47, .3);
+    width: 100%;
+    height: 150%;
+    margin: 1% 15% 1% 15%;
+    font-size: 1.2em;
+
+    
+}
+
+ul  {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1em;
+    margin: 0 auto;
+}
+
+li {
+    display: inline;
+    margin: 1%;
+    float: left;
+    text-align: center;
+
+}
+
+
+
+.home {
+    border: 3px double #3E362F;
+    border-radius: 15px;
+    padding: 2%;
+    max-width: 50%;
+}
+
+.hometown {
+     border: 3px double #3E362F;
+    border-radius: 15px;
+    padding: 2%;
+    max-width: 50%;
+}
+
+.travels {
+     border: 3px double #3E362F;
+    border-radius: 15px;
+    padding: 2%;
+    max-width: 50%;
+    
+}
+
+.links {
+     border: 3px double #3E362F;
+    border-radius: 15px;
+    padding: 2%;
+    max-width: 50%;
+}
+
+.contact {
+     border: 3px double #3E362F;
+    border-radius: 15px;
+    padding: 2%;
+    max-width: 50%;
+}
+
+/*DEATH TABLE*/
+
+table#t01 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    border: 4px double #3E362F;
+    border-radius: 20px;
+    
+}
+
+table#t01 td, th {
+    border: 4px double #3E362F;
+    border-collapse: collapse;
+    text-align: left;
+    background-color: rgba(62, 54, 47, .1);
+    color: #3E362F;
+    padding: 2%;
+    font-size: 1.1em;
+    border-radius: 20px;
+    
+}
+
+table#t01 tr {
+    width: 100%;
+    background: rgba(62, 54, 47, .3);
+           
+}
+
+table#t01 th {
+    background-color: #65594D;
+    color: #BCB6B5;
+    font-size: 1.75em;
+}
+
+table#t02 td {
+    padding: 10px;
+}
+
+
+/*SideBar*/
+.float-area-left {
+    max-width: 20%;
+    float: left;
+    background: rgba(62, 54, 47, .3);
+    padding: 1%;
+    font-size: 1em;
+    color: #65594D;
+    border: 8px double #3E362F;
+    border-radius: 15px;
+    margin: 0 1% 0 0;
+    
+}
+
+.float-new {
+    max-width: 20%;
+    float: right;
+    background: rgba(62, 54, 47, .3);
+    padding: 1%;
+    font-size: 1em;
+    color: #65594D;
+    border: 8px double #3E362F;
+    border-radius: 15px;
+    margin: 1% 0 0 1%;
+    
+}
+
+.float-text-new{
+    color: #65594D;
+    font-size: 1em;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+.left-text{
+    color: #65594D;
+    font-size: 1em;
+    padding: 1%;
+    border-radius: 15px;
+}
+
+.left-contact {
+    color: #65594D;
+    font-size: 1.1em;
+    padding: 1%;
+    border-radius: 15px;
+}
+
+.left-links {
+    color: #65594D;
+    font-size: 1.1em;
+    padding: 1%;
+    max-height: 300%;
+    border-radius: 15px;
+
+}
+
+.left-hometowns {
+    color: #65594D;
+    font-size: 1em;
+    padding: 1%;
+    border-radius: 15px;
+}
+
+.left-travels {
+    color: #65594D;
+    font-size: 1.1em;
+    padding: 1%;
+    border-radius: 15px;
+}
+
+.side-title{
+    border-radius: 15px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #65594D;
+}
+
+
+a:active {
+    background-color: #696482;
+}
+
+/*End Side*/
+
+/*CONTACT */
+
+input {
+    border: 4px solid #65594D;
+    border-radius: 15px;
+    padding: 1%;
+    outline-color: #696482;
+
+    
+}
+
+
+textarea {
+    border: 4px solid #65594D;
+    border-radius: 15px;
+    outline-color: #696482;
+
+ 
+}
+
+.thankyou {
+    width: 62.5%;
+    border: 6px double #65594D;
+    font-size: 2em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #65594D;
+    
+}
+
+#contact {
+    float: right;
+}
+
+/*LINKS*/
+
+tr {
+    text-align: justify;
+    padding: 1%;
+    
+}
+
+td {
+    padding: 1%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.25em;
+}
+
+
+
+/*FOOTER*/
+
+.footer {
+    border: 3px double #3E362F;
+    border-radius: 15px;
+    padding: 7px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    color: #3E362F;
+    background: rgba(62, 54, 47, .3);
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    main {max-width: 30%;}
+.nav {max-width: 100%;}
+.home {max-width: 30%}
+
+.hometown {max-width: 30%}
+
+.travels {max-width: 30%}
+
+.links {max-width: 30%}
+
+.contact {max-width: 30%}  
+    .float-new {max-width: 300%;}
+    .float-area-left {max-width: 200%;}
+    .left-hometowns {max-width: 100%;}
+    .content1 {max-width: 100%;}
+
+}
+
+@media only screen and (max-width: 480px){
+    main {max-width: 30%;}
+.nav {max-width: 100%;}
+.home {max-width: 30%}
+
+.hometown {max-width: 30%}
+
+.travels {max-width: 30%}
+
+.links {max-width: 30%}
+
+.contact {max-width: 30%} 
+
+    @media only screen and (max-width: 300px){
+    main {max-width: 30%;}
+.nav {max-width: 100%;}
+.home {max-width: 30%}
+
+.hometown {max-width: 30%}
+
+.travels {max-width: 30%}
+
+.links {max-width: 30%}
+
+.contact {max-width: 30%} 
